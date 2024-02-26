@@ -1,0 +1,29 @@
+.loading-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 10vw;
+}
+
+#loader{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    overflow: visible;
+}
+
+@media screen and (max-width:1000px){
+    #loader{
+        top: 40%;
+        left: 34%;
+    }
+
+    .loading-image{
+        width: 35vw;
+    }
+}
